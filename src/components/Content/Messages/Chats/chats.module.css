@@ -1,0 +1,51 @@
+.chats_wrapper {
+    display: grid;
+    grid-template-rows: 1fr 7vh;
+    height: 100%;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 5px;
+
+    align-items: end;
+}
+
+.chats {
+
+}
+
+.send_message {
+    display: grid;
+    grid-template-columns: 13fr 1fr;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+
+}
+
+.input input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    width: 100%;
+    color: whitesmoke;
+    padding-left: 10px;
+    height: 100%;
+    background-color: #3F4257;
+}
+
+.send_btn button {
+    box-sizing: border-box;
+    border: none;
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    background-color: #3F4257;
+    border-bottom-right-radius: 5px;
+}
+
+
+.send_btn button img {
+    width: 50%;
+
+}

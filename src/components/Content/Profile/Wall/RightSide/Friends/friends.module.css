@@ -1,0 +1,32 @@
+.friends_wrapper{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 7vh 1fr;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    border-bottom: 2px solid gainsboro;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1vh;
+    padding: 2vh;
+
+}
+
+.friend{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.friend img{
+    width: 100%;
+    border-radius: 100%;
+}

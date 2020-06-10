@@ -1,0 +1,36 @@
+.companion_wrapper{
+    display: grid;
+    grid-template-columns: auto 4fr 1fr 1fr;
+    grid-auto-columns: minmax(min-content, max-content);
+    font-size: 14px;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #494C62;
+    color: whitesmoke;
+    border-left: 1px solid lightslategray;
+    border-top-right-radius: 5px;
+}
+
+.name{
+    font-weight: 600;
+}
+
+.time{
+    color: lightslategray;
+    padding-left: 10px;
+}
+
+.parameters{
+    text-align: end;
+}
+
+.ava{
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+}
+
+.ava img{
+    width: 100%;
+    border-radius: 100%;
+}

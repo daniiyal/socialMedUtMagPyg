@@ -1,0 +1,8 @@
+
+.dialogs_wrapper{
+    grid-column: 1/2;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    background-color: whitesmoke;
+    border-right: 1px solid lightslategray;
+}

@@ -1,0 +1,59 @@
+.intro_wrapper {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 7vh 1fr auto;
+    grid-auto-rows: minmax(min-content, max-content);
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    border-bottom: 2px solid gainsboro;
+}
+
+.info {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    padding: 4vh 2vw 2vh 2vw;
+    grid-gap: 2vh;
+    font-size: 13px;
+
+}
+
+.description {
+    font-size: 12px;
+    padding-top: 1vh;
+    color: lightslategray;
+}
+
+.social_wrapper {
+    display: grid;
+    padding: 2vh 2vw 4vh;
+    grid-template-rows: minmax(min-content, max-content);
+    font-size: 13px;
+}
+
+.social_icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.social_icon img{
+    width: 100%;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-gap: 1vh;
+    font-size: 12px;
+    padding-top: 1vh;
+    align-self: center;
+    color: lightslategray;
+}
+
+

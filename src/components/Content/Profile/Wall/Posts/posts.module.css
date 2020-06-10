@@ -1,0 +1,38 @@
+.posts_wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
+
+}
+
+.add_post {
+    display: grid;
+    height: 7vh;
+    grid-template-columns: auto 8fr 1fr;
+    grid-auto-columns: minmax(min-content, max-content);
+    margin-bottom: 2vh;
+    background-color: #3F4257;
+}
+
+.new_post input {
+    padding-left: 1vw;
+    box-sizing: border-box;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    background-color: #3F4257;
+}
+
+.ava {
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.ava img {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}

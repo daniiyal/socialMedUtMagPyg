@@ -1,0 +1,29 @@
+.messages_wrapper{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-rows: 7vh 1fr;
+}
+
+.header{
+    grid-column: 1 / 3;
+}
+
+.dialogs{
+
+}
+
+.ad{
+    padding: 5px;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    height: 100%;
+    justify-items: center;
+    text-align: center;
+}
+
+.ad img {
+
+    height: 140px;
+    width: 250px;
+}
+

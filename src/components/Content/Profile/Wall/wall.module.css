@@ -1,0 +1,7 @@
+.wall_wrapper{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    margin-top: 2vh;
+    grid-gap: 2vw;
+}
+
