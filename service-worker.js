@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/socialMedUtMagPyg/precache-manifest.eeb2d959f7a03e626144c1faf23b89d6.js"
+  "/socialMedUtMagPyg/precache-manifest.9ec2a08873ebbd50a2a53803a9675ab7.js"
 );
 
 self.addEventListener('message', (event) => {

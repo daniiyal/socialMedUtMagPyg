@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a7f27aae3052af6eb4324c44bcacfa8",
+    "revision": "d999959bbcec4e0622f7ae4e45b0e135",
     "url": "/socialMedUtMagPyg/index.html"
   },
   {
-    "revision": "d31b3774f33ca5ce7a93",
+    "revision": "fe1a62857d809c23125f",
     "url": "/socialMedUtMagPyg/static/css/main.7ba9c316.chunk.css"
   },
   {
-    "revision": "19ad3c472e9fb1458896",
-    "url": "/socialMedUtMagPyg/static/js/2.6a2c78ed.chunk.js"
+    "revision": "986cea67e422acc568e3",
+    "url": "/socialMedUtMagPyg/static/js/2.cf4e076f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/socialMedUtMagPyg/static/js/2.6a2c78ed.chunk.js.LICENSE.txt"
+    "url": "/socialMedUtMagPyg/static/js/2.cf4e076f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d31b3774f33ca5ce7a93",
-    "url": "/socialMedUtMagPyg/static/js/main.18b6ea2c.chunk.js"
+    "revision": "fe1a62857d809c23125f",
+    "url": "/socialMedUtMagPyg/static/js/main.69e7b389.chunk.js"
   },
   {
     "revision": "58e93950abc5a4148e61",
