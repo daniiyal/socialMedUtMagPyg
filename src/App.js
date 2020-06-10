@@ -10,7 +10,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 
 const App = (props) => {
     return (
-        <BrowserRouter>
+
             <div className="app_wrapper">
                 <Sidebar/>
                 <Header/>
@@ -20,7 +20,6 @@ const App = (props) => {
                     <Route path='/messages' render={() => <Messages state={props.state.dialogsPage}/>}/>
                 </div>
             </div>
-        </BrowserRouter>
     );
 }
 

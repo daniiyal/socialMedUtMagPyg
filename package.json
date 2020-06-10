@@ -2,7 +2,7 @@
   "name": "social",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/daniiyal/socialMedUtMagPyg",
+  "homepage": "https://daniiyal.github.io/socialMedUtMagPyg/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
