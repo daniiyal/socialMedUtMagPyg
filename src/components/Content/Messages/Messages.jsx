@@ -8,7 +8,7 @@ import Chats from "./Chats/Chats";
 
 
 let kot = "https://www.photoforum.ru/f/photo/000/537/537839_66.jpg";
-
+//comment!
 const Messages = (props) => {
     return (
         <div className={s.messages_wrapper}>
