@@ -8,7 +8,7 @@ const Profile = (props) => {
     return (
         <div className={s.profile_wrapper}>
             <Header/>
-            <Wall state={props.state} dispatch={props.dispatch}/>
+            <Wall />
         </div>
     )
 }

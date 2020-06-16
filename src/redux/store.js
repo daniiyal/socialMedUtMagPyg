@@ -3,9 +3,9 @@ import pasha from "../icons/Friends/7m4yw6q0xYc.jpg";
 import an from "../icons/Friends/Kr-ZdXZ1Nv4.jpg";
 import ol from "../icons/Friends/z8oRTncuDxY.jpg";
 
+import profileReducer from "./profile_reducer";
+import dialogsReducer from "./dialogs_reducer";
 
-const ADD_POST = 'ADD-POST';
-const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 
 let store = {
     _state: {
@@ -14,8 +14,9 @@ let store = {
                 {name: 'Тарас', message: 'МАЗАФАКА', ava: tor},
                 {name: 'Тарас', message: 'факамаза', ava: tor},
                 {name: 'Тарас', message: 'фывфыв', ava: tor},
-                {name: 'Тарас', message: 'МАфывфывЗАФАКА', ava: tor}
+                {name: 'Тарас', message: 'МАфывфывЗАФАКА', ava: tor},
             ],
+            newMessageText: '',
             dialogs: [
                 {id: 1, name: 'Тарас', message: 'МАфывфывЗАФАКА', ava: tor},
                 {id: 2, name: 'Паша', message: 'факамаза', ava: pasha},
@@ -62,42 +63,25 @@ let store = {
             newPostText: ''
         }
     },
-    renderTree() {
+    _callsubscriber() {
     },
     getState() {
         return this._state;
     },
 
     dispatch(action) {
-        if (action.type === ADD_POST) {
-            let newID = this._state.profilePage.posts.length + 1
-            let newPost = {
-                id: newID,
-                likeCount: 0,
-                commentCount: 0,
-                repostCount: 0,
-                content: this._state.profilePage.newPostText,
-            }
-            this._state.profilePage.posts.push(newPost);
-            this._state.profilePage.newPostText = ''
-            this.renderTree(this._state)
-        } else if (action.type === UPDATE_NEW_POST_TEXT) {
-            this._state.profilePage.newPostText = action.newText;
-            this.renderTree(this._state)
-        }
+        this._state.profilePage = profileReducer(this._state.profilePage, action);
+        this._state.dialogsPage = dialogsReducer(this._state.dialogsPage, action);
+
+        this._callsubscriber(this._state);
     },
     subscribe(observer) {
-        this.renderTree = observer;
+        this._callsubscriber = observer;
     }
 }
 
-export const addPostActionCreator = () => ({type: ADD_POST})
 
 
-export const updateNewPostTextActionCreator = (text) => ({
-    type: UPDATE_NEW_POST_TEXT,
-    newText: text
-})
 
 
 export default store
