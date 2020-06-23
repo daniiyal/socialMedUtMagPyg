@@ -22,7 +22,7 @@ const Sidebar = () => {
                <div className={s.sidebar_item}><NavLink to="/profile"><img src={home} alt="home"/></NavLink></div>
                <div className={s.sidebar_item}><a href="sdfsd"><img src={article} alt="article"/></a></div>
                <div className={s.sidebar_item}><NavLink to="/messages"><img src={messages} alt="messages"/></NavLink></div>
-               <div className={s.sidebar_item}><a href="sdfsd"><img src={friend} alt="friend"/></a></div>
+               <div className={s.sidebar_item}><NavLink to="/friends"><img src={friend} alt="friend"/></NavLink></div>
                <div className={s.sidebar_item}><a href="sdfsd"><img src={groups} alt="groups"/></a></div>
                <div className={s.sidebar_item}><a href="sdfsd"><img src={music} alt="music"/></a></div>
                <div className={s.sidebar_item}><a href="sdfsd"><img src={video} alt="video"/></a></div>

@@ -11,17 +11,16 @@ let store = {
     _state: {
         dialogsPage: {
             chats: [
-                {name: 'Тарас', message: 'МАЗАФАКА', ava: tor},
-                {name: 'Тарас', message: 'факамаза', ava: tor},
-                {name: 'Тарас', message: 'фывфыв', ava: tor},
-                {name: 'Тарас', message: 'МАфывфывЗАФАКА', ava: tor},
+                {name: 'Тарас', message: 'Привет', ava: tor},
+                {name: 'Тарас', message: 'Я Тарас', ava: tor},
+                {name: 'Тарас', message: 'Как дела?', ava: tor},
             ],
             newMessageText: '',
             dialogs: [
-                {id: 1, name: 'Тарас', message: 'МАфывфывЗАФАКА', ava: tor},
-                {id: 2, name: 'Паша', message: 'факамаза', ava: pasha},
-                {id: 3, name: 'Аня', message: 'фывфыв', ava: an},
-                {id: 4, name: 'Олеся', message: 'МАЗАФАКА', ava: ol}
+                {id: 1, name: 'Тарас', message: 'Как дела?', ava: tor},
+                {id: 2, name: 'Паша', message: 'Рад знакомству!', ava: pasha},
+                {id: 3, name: 'Аня', message: 'Отлично!', ava: an},
+                {id: 4, name: 'Олеся', message: 'Супер!', ava: ol}
             ]
         },
         profilePage: {

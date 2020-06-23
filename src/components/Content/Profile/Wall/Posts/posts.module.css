@@ -8,13 +8,19 @@
 .add_post {
     display: grid;
     height: 7vh;
-    grid-template-columns: auto 8fr 1fr;
+    grid-template-columns: auto 8fr;
     grid-auto-columns: minmax(min-content, max-content);
     margin-bottom: 2vh;
     background-color: #3F4257;
 }
 
+.new_post{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+}
+
 .new_post input {
+
     padding-left: 1vw;
     box-sizing: border-box;
     height: 100%;
@@ -22,6 +28,7 @@
     border: none;
     color: whitesmoke;
     background-color: #3F4257;
+    width: 75%;
 }
 
 .ava {
@@ -35,4 +42,12 @@
     width: 30px;
     height: 30px;
     border-radius: 100%;
+}
+
+.publish {
+    background-color: #494C62;
+    outline: none;
+    height: 100%;
+    border: 2px;
+    color: whitesmoke;
 }

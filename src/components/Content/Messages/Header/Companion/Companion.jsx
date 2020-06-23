@@ -6,7 +6,7 @@ const Companion = () => {
     return (
         <div className={s.companion_wrapper}>
                 <div className={s.name}>
-                    Торас Андриевский
+                    Тарас Андриевский
                 </div>
                 <div className={s.time}>
                     5 minutes ago

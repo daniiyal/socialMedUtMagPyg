@@ -1,8 +1,6 @@
 import React from "react";
 import s from './messages.module.css'
 
-
-import Dialogs from "./Dialogs/Dialogs";
 import Header from "./Header/Header";
 import ChatsContainer from "./Chats/ChatsContainer";
 import DialogsContainer from "./Dialogs/DialogsContainer";

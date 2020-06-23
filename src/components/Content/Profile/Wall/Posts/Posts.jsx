@@ -4,7 +4,7 @@ import Post from "./Post/Post";
 import ava from './../../../../../images/RnCm75LYiXQ.jpg';
 
 const Posts = (props) => {
-    debugger;
+
     let posts = props.posts.map(p => <Post time={p.time} likeCount={p.likeCount} commentCount={p.commentCount}
                                            repostCount={p.repostCount} content={p.content}/>)
 
@@ -28,7 +28,7 @@ const Posts = (props) => {
                 <div className={s.new_post}>
 
                     <input placeholder="Что нового?" ref={newPost} onChange={onPostChange} value={props.newPostText}/>
-                    <button onClick={addPost}>Отправить</button>
+                    <button onClick={addPost} className={s.publish}>Опубликовать</button>
                 </div>
             </div>
             <div className={s.posts}>

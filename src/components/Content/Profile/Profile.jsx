@@ -4,11 +4,11 @@ import Header from "./Header/Header";
 import Wall from "./Wall/Wall";
 
 
-const Profile = (props) => {
+const Profile = () => {
     return (
         <div className={s.profile_wrapper}>
             <Header/>
-            <Wall />
+            <Wall/>
         </div>
     )
 }
